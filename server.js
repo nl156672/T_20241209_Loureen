@@ -71,9 +71,23 @@ app.get('/kreditBeantragen', (req, res) => {
 	res.render('kreditBeantragen.ejs',{});
 });
 
+if (condition) {
+	
+} else {
+	
+}
+
+
+
 app.get('/ueberweisungAusfuehren', (req, res) => {
 	res.render('ueberweisungAusfuehren.ejs',{});
 });
+
+app.get('/profil', (req, res) => {
+	res.render('profil .ejs',{});
+});
+
+
 
 // Die Funktion app.get('/geldAnlegen...) wird abgearbeitet, wenn der Benutzer die Seite geldAnlegen
 // im Browser ansurft.
